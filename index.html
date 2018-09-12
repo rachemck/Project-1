@@ -8,20 +8,21 @@
 
     <!--light blue menu area-->
     <div class="navbar-small ">
+      <div class="flex-end">
+      <div>Social Stream</div>
       <div class="navbar-flex">
-        <div class="stream">Social Stream</div>
-        <div class="nav-text grow flex2">MINI of Raleigh</div>
+        <div class="nav-text grow ">MINI of Raleigh</div>
         <div class="flex3"><img src="../img/menu_line.png"></div>
         <div class="nav-text grow flex1"><img src="../img/top_question.png"></div>
         <div class="flex3"><img src="../img/menu_line.png"></div>
         <div class="nav-text grow flex1"><img src="../img/gear.png"></div>
       </div>
     </div>
+    </div>
     <!--dark blue menu area-->
     <div class="navbar">
 
-
-      <div>
+      <div class="nav-pad1">
         <div class="people icons"></div>
         <div class="center-flex"> <img src="../img/shadow.png"></div>
       </div>
@@ -46,17 +47,20 @@
         <div class="center-flex"> <img src="../img/shadow.png"></div>
       </div>
 
-      <div>
+      <div class="nav-pad2">
         <div class="graph icons"></div>
         <div class="center-flex"> <img src="../img/shadow.png"></div>
       </div>
 
   </div>
 
-    <div class="dashboard center-flex">
+    <div class="dashboard">
       <div>Dashboard</div>
+      <div class="container-1">
+      <span class="dash-icon"><i class="fa fa-search"></i></span>
       <div class="search"><input type="text"></div>
     </div>
+  </div>
 
     <div class="announce center-flex">
       <div class="orange-text"><p>ANNOUNCEMENTS<p></div>
@@ -64,8 +68,10 @@
     </div>
 
     <div class="tasks">
-      <div class="blue-large-text border">Tasks</div>
-
+      <div class="blue-large-text border flex-end">
+        Tasks
+        <div><img src="img/grey_gear.png"></div>
+      </div>
 
 
 <div class="tasks-container">
@@ -130,7 +136,7 @@
 
 
 <div class="flex-start border-dots grey-hover">
-  <div><img src="img/article.png"></div>
+  <div><img src="img/check.png"></div>
   <div class="tasks-text word-1">
     <p class="small-text line-none">Checklist</p>
     <p class="line-none">Creating a Promotion</p>
@@ -140,7 +146,7 @@
 
 
 <div class="flex-start border-dots grey-hover">
-  <div><img src="img/article.png"></div>
+  <div><img src="img/light.png"></div>
   <div class="tasks-text word-1">
     <p class="small-text line-none">Tip</p>
     <p class="line-none">Share More</p>
@@ -211,10 +217,12 @@
 
 
       <div class="did-you">
-        <img src="img/back.png">
+        <div id="half-circle-right"></div>
+        <div class="padding">
         <p>DID YOU KNOW?</P>
         <p>Maecenas sed diam eget risus varius blanit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
-        <img src="img/next.png">
+        </div>
+        <div id="half-circle-left"></div>
       </div>
 
     </div>
@@ -226,20 +234,21 @@
       <div class="white-background" >
         <img src="img/watch_what.png">
           <div class="ad-text" id="message">
-            <p>Watch what you say</p>
-            <p>Message Management</p>
+            <p id="green-text">Watch what you say.</p>
+            <p id="small">Message Management</p>
           </div>
       </div>
 
+
       <div class="white-background" id="watch-what">
-        <img src="img/see_what.png">
-        <div class="ad-text">
+        <img src="img/see_what.png" id="see-what">
+        <div class="ad-text" id="green-white">
           <p>See what others are doing</p>
         </div>
       </div>
 
       <div class="white-background" id="orange-ad">
-        <div class="ad-text">
+        <div class="ad-text" id="orange-text">
           <p>Version 2.0 is coming</p>
         </div>
       </div>

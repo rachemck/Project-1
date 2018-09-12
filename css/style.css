@@ -6,8 +6,10 @@
 .blue-large-text{
   color: #2498f4;
   font-size: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
 }
 
 .site{
@@ -19,6 +21,20 @@
     'nav nav nav nav nav nav nav'
 }
 
+#half-circle-right{
+     height:60px;
+     width:30px;
+     border-radius: 0 90px 90px 0;
+     background: white;
+}
+
+#half-circle-left{
+     height:60px;
+     width:30px;
+     border-radius: 90px 0 0 90px;
+     background: white;
+}
+
 /*grid placement of small light blue menu*/
 .navbar-small{
   grid-column: 1/8;
@@ -28,8 +44,7 @@
 
 .navbar-flex{
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: space-around;
 
 }
 
@@ -44,9 +59,7 @@
 .flex3{
   flex-basis: 20px;
 }
-.stream{
-  align-self: flex-start;
-}
+
 /*contents of small light blue menu*/
 .nav-text{
   color: white;
@@ -54,7 +67,7 @@
 }
 /*grow on hover*/
 .grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.2); }
+.grow:hover { transform: scale(1.1); }
 
 /*dark blue menu area with icons*/
 .navbar{
@@ -67,7 +80,12 @@
   align-items: center;
   flex-basis: 50%
 }
-
+.nav-pad1{
+  padding-left: 25%;
+}
+.nav-pad2{
+  padding-right: 25%;
+}
 .dashboard{
   grid-column: 2/7;
   grid-row: 3/4;
@@ -75,8 +93,45 @@
   font-size: 25px;
   color: white;
   border-radius: 3px;
+  margin-bottom: 18px;
+  margin-top: 18px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+.container-1{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+container-1 input.search{
+  width: 300px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.container-1 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
 
 .announce{
   grid-column: 2/7;
@@ -95,11 +150,16 @@
 
 .did-you{
   background-color: #2498f4;
-  color: white;
-  margin: 20px;
-  padding: 30px;
   border-radius: 10px;
+  color: white;
+
 }
+
+.padding{
+  margin: 90px;
+
+}
+
 .tasks{
   grid-column: 2/4;
   grid-row:5/6;
@@ -114,6 +174,14 @@
   padding-top: 10px;
   padding-left: 20px;
   justify-content: space-around;
+}
+
+.flex-end{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
 }
 .flex-200{
   flex-basis: 200px;
@@ -216,7 +284,7 @@
   background-color: white;
   z-index: 0;
   border-radius: 3px;
-  height: 158px;
+  height: 160px;
   width: 270px;
   display: flex;
   position: relative;
@@ -238,20 +306,55 @@
   flex-direction: column;
   text-align: right;
   right: 0;
-  width: 40%;
+  width: 60%;
+  padding-right: 5px;
+}
+
+#small{
+  font-size: 11px;
+
+}
+
+#green-white{
+  color: white;
+  background-color: #33cc66;
+  border-radius: 6px;
+  height: 40px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
 
 #watch-what{
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
+
 }
 
 #orange-ad{
   background-image: url(../img/version.png);
   background-position: top right;
   background-repeat: no-repeat;
+  color: #fe7f13;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+#see-what{
+  padding-bottom: 20px;
+}
+
+#orange-text{
+  padding-right: 50%;
+  padding-left: 10px;
+  padding-bottom: 30px;
 }
 
 .footer{
@@ -273,7 +376,10 @@
   display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+    padding-left: 15px;
+    padding-bottom: 20px;
 }
 
 .wrap {
@@ -281,7 +387,7 @@
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding-top: 30px;
 }
 
@@ -338,15 +444,26 @@ select {
   line-height: 0px;
 }
 
+#green-text {
+  font-size: 20px;
+  color: #33cc66;
+}
 
 /*mobile responsive view*/
 @media screen and (max-width:870px){
+  .nav-pad1{
+    padding-left: 0%;
+  }
+  .nav-pad2{
+    padding-right: 0%;
+  }
   .tasks, .stats{
     grid-column: 1/8;
   }
 
   .dashboard{
     grid-column: 1/8;;
+
   }
   .announce{
     grid-column: 1/8;
