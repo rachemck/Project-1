@@ -21,11 +21,16 @@
     'nav nav nav nav nav nav nav'
 }
 
+
+
 #half-circle-right{
      height:60px;
      width:30px;
      border-radius: 0 90px 90px 0;
      background: white;
+     min-width: 30px;
+     display: flex;
+     align-items: center;
 }
 
 #half-circle-left{
@@ -33,6 +38,10 @@
      width:30px;
      border-radius: 90px 0 0 90px;
      background: white;
+     min-width: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
 }
 
 /*grid placement of small light blue menu*/
@@ -64,6 +73,9 @@
 .nav-text{
   color: white;
   font-size: .8em;
+}
+#mini{
+  min-width: 100px;
 }
 /*grow on hover*/
 .grow { transition: all .2s ease-in-out; }
@@ -152,11 +164,15 @@ container-1 input.search{
   background-color: #2498f4;
   border-radius: 10px;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
 
 }
 
 .padding{
-  margin: 90px;
+  margin: 43px;
 
 }
 
@@ -255,6 +271,7 @@ container-1 input.search{
 .circle {
       width:30px;
       height:30px;
+      min-width: 30px;
       border-radius:50px;
       font-size:20px;
       color:#fff;
@@ -387,7 +404,7 @@ container-1 input.search{
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 30px;
 }
 
