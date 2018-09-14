@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/spritesheet.css" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body class="site">
 
@@ -25,6 +26,7 @@
       <div class="nav-pad1">
         <div class="people icons"></div>
         <div class="center-flex"> <img src="../img/shadow.png"></div>
+        <div class="arrow-down"></div>
       </div>
 
       <div>
@@ -117,7 +119,10 @@
 
 <div class="black">
 <div class="flex-start border-dots grey-hover">
-  <div><img src="img/article.png"></div>
+  <div class="rec-flex">
+    <img src="img/article.png">
+    <img src="img/article_shadow.png">
+  </div>
   <div class="tasks-text word-1">
     <p class="small-text line-none">Article</p>
     <p class="line-none">7 Steps to getting more Fans</p>
@@ -127,27 +132,32 @@
 
 
 <div class="flex-start border-dots grey-hover">
-  <div><img src="img/article.png"></div>
+  <div class="rec-flex">
+    <img src="img/article.png">
+    <img src="img/article_shadow.png">
+  </div>
   <div class="tasks-text word-1">
     <p class="small-text line-none">Article</p>
-    <p>Increase traction with more interactions</p>
+    <p class="line-none">Increase traction with more interactions</p>
   </div>
 </div>
 
-
-
 <div class="flex-start border-dots grey-hover">
-  <div><img src="img/check.png"></div>
+  <div class="rec-flex">
+    <img src="img/check.png">
+    <img src="img/check_shadow.png">
+  </div>
   <div class="tasks-text word-1">
     <p class="small-text line-none">Checklist</p>
     <p class="line-none">Creating a Promotion</p>
   </div>
 </div>
 
-
-
 <div class="flex-start border-dots grey-hover">
-  <div><img src="img/light.png"></div>
+  <div class="rec-flex">
+    <img src="img/light.png">
+    <img src="img/light_shadow.png">
+  </div>
   <div class="tasks-text word-1">
     <p class="small-text line-none">Tip</p>
     <p class="line-none">Share More</p>
@@ -172,14 +182,15 @@
   </div>
   </div>
 <div class="center-flex">
-        <div> <img src="img/bar_graph.png"></div>
+        <div id="bar-graph"> <img src="img/bar_graph.png"></div>
 
         <div class="flex-column border-left circle-graph">
-          <div> <img src="img/channels.png"></div>
-          <div> <img src="img/referrals.png"></div>
+          <div class="circle-text"> <p>CHANNELS</p><img src="img/channels.png"></div>
+          <div class="circle-text"> <p>REFERRALS</p><img src="img/referrals.png"></div>
         </div>
 
         <div class="wrap">
+        <div class="extra-pad">
         <div class="outline grey-hover">
           <div class="z-2">
           <img src="img/green_person.png">
@@ -195,9 +206,12 @@
           </div>
           <div class= "chart">
            <img src="img/chart_green.png">
+         </div>
           </div>
         </div>
         </div>
+
+
 
           <div class="outline grey-hover">
             <div class="z-2">
