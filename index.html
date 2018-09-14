@@ -20,38 +20,51 @@
       </div>
     </div>
     </div>
+
     <!--dark blue menu area-->
     <div class="navbar">
 
       <div class="nav-pad1">
         <div class="people icons"></div>
-        <div class="center-flex"> <img src="../img/shadow.png"></div>
+        <div class="center-flex">
+          <img src="../img/shadow.png">
+        </div>
         <div class="arrow-down"></div>
       </div>
 
       <div>
         <div class="speedometer icons"></div>
-        <div class="center-flex"> <img src="../img/shadow.png"></div>
+        <div class="center-flex">
+          <img src="../img/shadow.png">
+        </div>
       </div>
 
       <div>
         <div class="talkbubble icons"></div>
-        <div class="center-flex"> <img src="../img/shadow.png"></div>
+        <div class="center-flex">
+          <img src="../img/shadow.png">
+        </div>
       </div>
 
       <div>
         <div class="pricetag icons"></div>
-        <div class="center-flex"> <img src="../img/shadow.png"></div>
+        <div class="center-flex">
+          <img src="../img/shadow.png">
+        </div>
       </div>
 
       <div>
         <div class="writing icons"></div>
-        <div class="center-flex"> <img src="../img/shadow.png"></div>
+        <div class="center-flex">
+          <img src="../img/shadow.png">
+        </div>
       </div>
 
       <div class="nav-pad2">
         <div class="graph icons"></div>
-        <div class="center-flex"> <img src="../img/shadow.png"></div>
+        <div class="center-flex">
+          <img src="../img/shadow.png">
+        </div>
       </div>
 
   </div>
@@ -64,19 +77,29 @@
     </div>
   </div>
 
+<!--Announcements section-->
     <div class="announce center-flex">
-      <div class="orange-text"><p>ANNOUNCEMENTS<p></div>
-      <div><p>Sociis natoque penatibus et magnis die parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p></div>
-      <div><img class="grow"src="img/small_arrow_back.png"><img class="grow"src="img/small_arrow_next.png"></div>
+      <div class="orange-text">
+        <p>ANNOUNCEMENTS<p>
+      </div>
+      <div>
+        <p>Sociis natoque penatibus et magnis die parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+      </div>
+      <div>
+        <img class="grow"src="img/small_arrow_back.png">
+        <img class="grow"src="img/small_arrow_next.png">
+      </div>
     </div>
 
-    <div class="tasks">
-      <div class="blue-large-text border flex-end">
+<!--Start of the tasks sidebar-->
+<div class="tasks">
+    <div class="blue-large-text border flex-end">
         Tasks
-        <div><img src="img/grey_gear.png"></div>
-      </div>
+      <div><img src="img/grey_gear.png"></div>
+    </div>
 
-
+<!--Contents of the tasks sidebar-->
+<!--Tasks 1-->
 <div class="tasks-container">
       <div class="flex-start border grey-hover">
         <div class="circle">1</div>
@@ -87,6 +110,7 @@
         </div>
     </div>
 
+<!--Tasks 2-->
     <div class="flex-start border grey-hover">
       <div class="circle">2</div>
       <div class="tasks-text word">Provide Responses</div>
@@ -96,6 +120,7 @@
       </div>
   </div>
 
+<!--Tasks 3-->
     <div class="flex-start border grey-hover">
       <div class="circle">3</div>
       <div class="tasks-text word">Review Activity</div>
@@ -105,6 +130,7 @@
       </div>
   </div>
 
+<!--Tasks 4-->
     <div class="flex-start border grey-hover">
       <div class="circle">4</div>
       <div class="tasks-text word">Reach Out</div>
@@ -114,9 +140,11 @@
       </div>
   </div>
     </div>
+
+<!--Start of the recommendations sidebar-->
 <div class="blue-large-text border">Recommendations</div>
 
-
+<!--Article: 7 Steps to getting-->
 <div class="black">
 <div class="flex-start border-dots grey-hover">
   <div class="rec-flex">
@@ -130,7 +158,7 @@
 </div>
 </div>
 
-
+<!--Increase traction with more-->
 <div class="flex-start border-dots grey-hover">
   <div class="rec-flex">
     <img src="img/article.png">
@@ -142,6 +170,7 @@
   </div>
 </div>
 
+<!--Checklist-->
 <div class="flex-start border-dots grey-hover">
   <div class="rec-flex">
     <img src="img/check.png">
@@ -153,6 +182,7 @@
   </div>
 </div>
 
+<!--Tip-->
 <div class="flex-start border-dots grey-hover">
   <div class="rec-flex">
     <img src="img/light.png">
@@ -164,15 +194,18 @@
   </div>
 </div>
 
+<!--closing tag of tasks sidebar-->
+</div>
 
-  </div>
-
+<!--Beginning of Analytics section-->
     <div class="stats">
 
       <div class="blue-large-text">Analytics</div>
 
   <div class="center-flex">
   <p>Activity</p>
+
+<!--Dropdown select menu-->
   <div class="custom-select">
     <select>
       <option value="0">06/28/11-07/21/11</option>
@@ -181,40 +214,58 @@
     </select>
   </div>
   </div>
-<div class="center-flex">
-        <div id="bar-graph"> <img src="img/bar_graph.png"></div>
 
+<!--Bar Graph-->
+<div class="center-flex">
+        <div> <img id="bar-graph" src="img/bar_graph.png"></div>
+<!--Circle Graph-->
         <div class="flex-column border-left circle-graph">
           <div class="circle-text"> <p>CHANNELS</p><img src="img/channels.png"></div>
           <div class="circle-text"> <p>REFERRALS</p><img src="img/referrals.png"></div>
         </div>
 
-        <div class="wrap">
+        <div>
+          <input type="checkbox" id="c1" name="cc" />
+          <label for="c1">Facebook</label>
+          <input type="checkbox" id="c2" name="cc" />
+          <label for="c2">Twitter</label>
+          <input type="checkbox" id="c3" name="cc" />
+          <label for="c3">FourSquare</label>
+          <input type="checkbox" id="c4" name="cc" />
+          <label for="c4">Google+</label>
+        </div>
+
+<!--Icons with Banners-->
+      <div class="wrap">
         <div class="extra-pad">
         <div class="outline grey-hover">
           <div class="z-2">
-          <img src="img/green_person.png">
-          <div class="banner-container">
-            <div><img class="triangle" src="img/banner-left.png"></div>
-            <div class="banner">
+            <img src="img/green_person.png">
+            <div class="banner-container">
               <div>
-                <p class="banner-header">75 CONTACTS</p>
-                <p class="small-text">4 INFLUENCERS</p>
+                <img class="triangle" src="img/banner-left.png">
+              </div>
+              <div class="banner">
+                <div>
+                  <p class="banner-header">75 CONTACTS</p>
+                  <p class="small-text">4 INFLUENCERS</p>
+                </div>
+              </div>
+              <div>
+                <img class="triangle" src="img/banner-right.png">
               </div>
             </div>
-            <div><img class="triangle" src="img/banner-right.png"></div>
-          </div>
-          <div class= "chart">
-           <img src="img/chart_green.png">
-         </div>
+            <div class= "chart">
+             <img src="img/chart_green.png">
+           </div>
           </div>
         </div>
         </div>
 
 
 
-          <div class="outline grey-hover">
-            <div class="z-2">
+        <div class="outline grey-hover">
+          <div class="z-2">
             <img src="img/orange_person.png">
             <div class="banner-container">
               <img class="triangle" src="img/banner-left.png">
@@ -224,15 +275,15 @@
                   <p class="small-text">0 INFLUENCERS</p>
                 </div>
               </div>
-            <img class="triangle" src="img/banner-right.png">
+              <img class="triangle" src="img/banner-right.png">
             </div>
-          <div class="chart">
-            <img src="img/chart_orange.png">
-          </div>
+            <div class="chart">
+              <img src="img/chart_orange.png">
+            </div>
         </div>
       </div>
-      </div>
     </div>
+  </div>
 
 
       <div class="did-you">
