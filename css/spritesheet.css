@@ -5,6 +5,23 @@
 .graph, .graph-blue
 { display: inline-block; background: url('../img/spritesheet.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
 
+.check-done, .check, .facebook, .facebook-color, .foursquare,
+.foursquare-color, .twitter, .twitter-color, .youtube, .youtube-color
+{ display: inline-block; background: url('../img/spritesheet2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.check:hover { background-position: -1px -0px; width: 23px; height: 21px; }
+.check { background-position: -1px -22px; width: 18px; height: 18px; }
+.facebook { background-position: -1px -41px; width: 16px; height: 16px; }
+.facebook:hover { background-position: -1px -58px; width: 16px; height: 16px; }
+.foursquare { background-position: -1px -75px; width: 16px; height: 16px; }
+.foursquare:hover { background-position: -1px -92px; width: 16px; height: 16px; }
+.twitter { background-position: -1px -109px; width: 16px; height: 16px; }
+.twitter:hover { background-position: -1px -126px; width: 16px; height: 16px; }
+.youtube { background-position: -1px -143px; width: 16px; height: 16px; }
+.youtube:hover { background-position: -1px -160px; width: 16px; height: 16px; }
+
+
+
 .people { background-position: -1px -0px; width: 62px; height: 42px; }
 .people:hover { background-position: -1px -43px; width: 62px; height: 42px; }
 .speedometer { background-position: -1px -86px; width: 58px; height: 58px; }
