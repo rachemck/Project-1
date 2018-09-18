@@ -153,6 +153,11 @@ input[type="checkbox"]:checked + label span {
   justify-content: space-around;
 }
 
+.navbar-flex img {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
 /*contents of small light blue menu*/
 .nav-text{
   color: white;
@@ -457,6 +462,7 @@ input[type=text] {
   margin-right: 30px;
 }
 
+/*grid section for the entire analytics and blue banner area*/
 .stats{
   grid-column: 4/7;
   grid-row:5/6;
@@ -467,16 +473,19 @@ a {
   text-decoration: inherit; /* no underline */
 }
 
+/*adds just an underline to links on hover*/
 .underline:hover{
   text-decoration: underline;
 }
+
+/*bottom tiles grid section*/
 .tiles{
   grid-column: 2/7;
   grid-row:6/7;
   background-color: #2498f4;
   padding: 20px;
 }
-
+/*white background of bottom tiles*/
 .white-background{
   background-color: white;
   z-index: 0;
@@ -487,17 +496,17 @@ a {
   position: relative;
   margin-top: 20px;
 }
-
+/*image layered on top of tile section*/
 .white-background img{
   position: absolute;
   z-index: 1;
 }
-
+/*text of the bottom tile section*/
 .ad-text{
   z-index: 2;
   position: absolute;
 }
-
+/*formatting and placement for 'watch what you say'*/
 #message{
   display: flex;
   justify-content: flex-end;
@@ -507,11 +516,11 @@ a {
   width: 135px;
   padding-right: 5px;
 }
-
+/*small message Management text*/
 #small{
   font-size: 11px;
 }
-
+/*see what others are doing text*/
 #green-white{
   color: white;
   background-color: #33cc66;
@@ -523,14 +532,14 @@ a {
   flex-direction: row;
   align-items: center;
 }
-
+/*flex for middle tile*/
 #watch-what{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
+/*version 2.0 ad settings*/
 #orange-ad{
   background-image: url(../img/version.png);
   background-position: top right;
@@ -542,17 +551,17 @@ a {
   flex-direction: row;
   align-items: center;
 }
-
+/*adds some padding to version 2.0 tile*/
 #see-what{
   padding-bottom: 20px;
 }
-
+/*adds padding within text div for version 2.0*/
 #orange-text{
   padding-right: 50%;
   padding-left: 10px;
   padding-bottom: 30px;
 }
-
+/*grid area for footer*/
 .footer{
   grid-column: 1/8;
   grid-row:7/8;
@@ -565,21 +574,23 @@ a {
   background-color: #f4f4f4;
   box-shadow: 0px -8px 15px -3px #C4C4C4;
 }
-#no-wrap{
-  flex-wrap: nowrap;
+/*bigger font size for social stream text*/
+#social-stream{
+  font-size: 20px;
 }
+/*top and bottom border of the analytics section*/
 .analytics{
   border-top: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea;
 }
+/*right border in the analytics section*/
 .analytics-right{
   border-right: 1px solid #eaeaea;
 }
+/*floats content to the right*/
 .end{
   float: right;
 }
-
-
 /*uses flex to center distribute*/
 .center-flex {
   display: flex;
@@ -592,6 +603,7 @@ a {
   margin-left: 15px;
 
 }
+/*grey border around icon and banner*/
 .outline{
     margin-left: 15px;
     margin-right: 15px;
@@ -602,7 +614,7 @@ a {
     border-radius: 4px;
     box-shadow: 0px 5px 15px -3px #C4C4C4;
 }
-
+/*container for entire left banner/icon area*/
 .z-2{
   z-index: 1;
   margin-top: -30px;
