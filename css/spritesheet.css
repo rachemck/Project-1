@@ -9,7 +9,7 @@
 .foursquare-color, .twitter, .twitter-color, .youtube, .youtube-color
 { display: inline-block; background: url('../img/spritesheet2.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
 
-.check:hover { background-position: -1px -0px; width: 23px; height: 21px; }
+.check:checked { background-position: -1px -0px; width: 23px; height: 21px; }
 .check { background-position: -1px -22px; width: 18px; height: 18px; }
 .facebook { background-position: -1px -41px; width: 16px; height: 16px; }
 .facebook:hover { background-position: -1px -58px; width: 16px; height: 16px; }
